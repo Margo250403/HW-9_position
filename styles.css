@@ -54,10 +54,11 @@ header > div, nav > ul{
 .dropdown-list li {
     padding: 16px 74px 32px 10px; 
     background-color: #7B89BA;  
+     transition: background-color .3s;  
 }
 .dropdown-list li:hover {
     background-color: #6F7397;
-}
+} 
 .dropdown-list a{
     display: block;
     font-size: 24px;
@@ -67,6 +68,7 @@ header > div, nav > ul{
 }
 .dropdown-list a:hover{
     color: white;
+    transition: color .3s;
 }
 
 
